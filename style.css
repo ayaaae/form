@@ -1,0 +1,101 @@
+:root {
+    --mainColor: teal;
+}
+
+body {
+    background-color: rgb(51, 50, 50);
+}
+
+.form {
+    background-color: #faebd7;
+    width: 400px;
+    height: 450px;
+    /* border-radius: 20%; */
+    border-right: solid 10px rgb(0, 0, 0);
+}
+.parent {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    margin-left: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 43);
+}
+.input1 {
+    padding: 45px;
+    width: 400px;
+
+    border-radius: 4px;
+}
+.input-field1 {
+    width: 300px;
+    height: 30px;
+    border: none;
+    /* border-radius: 4px; */
+    background-color: transparent;
+    /* border: solid 2px rgb(9, 9, 43); */
+    margin-top: 21px;
+    border-bottom: solid 3px rgb(9, 9, 43);
+}   
+.input2 {
+    padding: 45px;
+    width: 600px;
+}
+.input-field2 {
+    width: 300px;
+    height: 30px;
+    border: none;
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border-bottom: solid 3px rgb(9, 9, 43);
+    display: flex;
+    margin-top: -40px;
+    position: relative;
+}
+.input-field1:hover {
+
+    color: rgb(9, 9, 43);
+}
+.input-field2:hover {
+    color: rgb(9, 9, 43);
+}
+/* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(9, 9, 43);
+    margin-top: 10px;
+} */
+#forgot {
+    color:rgb(9, 9, 43);
+    font-size: small;
+}
+
+#Checkbox {
+   margin-bottom: 10px;
+}
+#check {
+    font-size: smaller;
+
+}
+#button {
+    background-color: rgb(9, 9, 43);
+    color: #faebd7;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 00px;
+}
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 10px;
+}
